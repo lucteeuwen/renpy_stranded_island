@@ -5,3 +5,5 @@ game/script.rpyc
 game/Chapter1.rpyc
 game/Chapter2.rpyc
 game/Chapter3.rpyc
+game/cache/*
+traceback.txt

@@ -6,6 +6,9 @@
 define e = Character("Eileen")
 
 
+default player = "Pepa"
+
+
 # The game starts here.
 
 label start:
