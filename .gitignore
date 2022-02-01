@@ -2,3 +2,6 @@ game/gui.rpyc
 game/options.rpyc
 game/screens.rpyc
 game/script.rpyc
+game/Chapter1.rpyc
+game/Chapter2.rpyc
+game/Chapter3.rpyc
