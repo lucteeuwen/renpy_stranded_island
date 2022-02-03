@@ -6,7 +6,7 @@
 define e = Character("Eileen")
 
 
-default player = "Pepa"
+default player = "Luc"
 
 
 # The game starts here.
@@ -17,13 +17,11 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene bg island
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
-
-    show eileen happy
 
     # These display lines of dialogue.
     "STARTING"
