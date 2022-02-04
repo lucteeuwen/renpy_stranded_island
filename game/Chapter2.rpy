@@ -37,11 +37,25 @@ label Chapter2:
 
 
     label choice_work:
-        "You are going to start working, that's a great choice."
-        "Now you're going to start finding coconuts to to feed yourself. You find a tree and climb up to grab the coconuts."
-        "Also, on the top of the tree you find a sharp stick. What are you going to do with it?"
+        "You are going to start working, that's a great choice!"
+        "Now you're going to start finding coconuts to to feed yourself. You have found a tree and you start climbing up to grab the coconuts."
+        "When on top of the tree, you also find a sharp stick. What are you going to do with it?"
         menu:
             "I will grab the sharp stick.":
                 jump choice_grab_stick
+            "I will not grab the sharp stick.":
+                jump choice_no_stick
+
+    label choice_grab_stick:
+        "You have grabbed the sharp stick too. That's a great choice!"
+        "Now, as you try to go down the tree, you loose your grip and fall. With your fall you have made a lot of noise and you have attracted a bear."
+        "But it doesn't matter because you have a sharp stick which will allow you to kill the bear. "
+        jump Chapter3
+
+    label choice_no_stick:
+        "You didn't grab the stick. Maybe that wasn't the best choice."
+        "As you try to go down the tree, you loose your grip and fall. You have made a lot of noise and you have attracted a bear."
+        "Now how are you going to protect yourself? I think the bear is going to kill you."
+        jump death
 
 jump Chapter3

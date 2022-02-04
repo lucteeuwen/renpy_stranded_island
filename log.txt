@@ -1,21 +1,21 @@
-Fri Feb  4 09:03:13 2022
+Fri Feb  4 09:45:14 2022
 Linux-5.15.15-76051515-generic-x86_64-with-debian-bullseye-sid
 Ren'Py 7.4.11.2266
  
 
 Bootstrap to the start of init.init took 0.06s
-Early init took 0.01s
-Loader init took 0.01s
+Early init took 0.00s
+Loader init took 0.00s
 Loading error handling took 0.01s
 Loading script took 0.05s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Running init code took 0.02s
-Loading analysis data took 0.02s
+Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Dump and make backups. took 0.04s
+Dump and make backups. took 0.03s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.02s
@@ -24,7 +24,7 @@ Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.03s
 Build styles took 0.00s
-Load screen analysis took 0.02s
+Load screen analysis took 0.01s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
 Prepare screens took 0.04s
@@ -32,7 +32,7 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.34s
+Interface start took 0.11s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2560, 1440)
@@ -46,7 +46,7 @@ Screen sizes: virtual=(1920, 1080) physical=(2379, 1338) drawable=(2379, 1338)
 Maximum texture size: 4096x4096
 Cleaning stores took 0.00s
 Init translation took 0.00s
-Build styles took 0.00s
+Build styles took 0.01s
 Load screen analysis took 0.01s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
