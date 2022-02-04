@@ -1,7 +1,12 @@
 label Chapter2:
+    scene bg island
     "Chapter 2"
+    if gender == "m":
+        show male basic
     "[player], you're on a deserted island and have to survive"
     "You will have the following choices which will be critical for your survival"
+    if gender == "m":
+        hide male basic
     menu:
         "Are you going to panic?":
             jump choice_panic
@@ -12,6 +17,8 @@ label Chapter2:
 
     #Decided to panic
     label choice_panic:
+        if gender == "m":
+            show male basic
         "You decided to panic [player]. That's an interesting choice."
         "5 minutes later."
         "You are starting to freak out and as you freak out you slam into a tree and break your arm!"
@@ -23,13 +30,19 @@ label Chapter2:
 
     #Decided to cry
     label choice_cry:
+        if gender == "m":
+            show male cry
         "You decided to cry [player]. That's very understandable. But will it help you survive?"
         "Your crying is becoming louder. Maybe you should stop. You could attract wild animals."
         "Are you going to stop crying?"
+        if gender == "m":
+            hide male cry
         menu:
             "Yes! I will get to work.":
                 jump choice_work
-            "No! I can't":
+            "No! I can't stop crying.":
+                if gender == "m":
+                    show male cry
                 "Your crying will not help you. Didn't you realize there where bears on this island?"
                 "Look there you have one. But don't stress..."
                 "Well guess it's too late you allready died of fear. I wanted to tell you that these bears are not actually agresive."
@@ -37,6 +50,8 @@ label Chapter2:
 
 
     label choice_work:
+        if gender == "m":
+            show male basic
         "You are going to start working, that's a great choice!"
         "Now you're going to start finding coconuts to to feed yourself. You have found a tree and you start climbing up to grab the coconuts."
         "When on top of the tree, you also find a sharp stick. What are you going to do with it?"
