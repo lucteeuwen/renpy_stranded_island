@@ -1,21 +1,21 @@
-Fri Feb  4 09:45:14 2022
+Fri Feb  4 11:32:55 2022
 Linux-5.15.15-76051515-generic-x86_64-with-debian-bullseye-sid
 Ren'Py 7.4.11.2266
  
 
-Bootstrap to the start of init.init took 0.06s
+Bootstrap to the start of init.init took 0.07s
 Early init took 0.00s
 Loader init took 0.00s
 Loading error handling took 0.01s
 Loading script took 0.05s
-Loading save slot metadata. took 0.01s
+Loading save slot metadata. took 0.00s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Running init code took 0.02s
-Loading analysis data took 0.01s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Dump and make backups. took 0.03s
+Dump and make backups. took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.02s
