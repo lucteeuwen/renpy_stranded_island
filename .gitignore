@@ -10,3 +10,5 @@ death.rpyc
 harel.rpyc
 traceback.txt
 errors.txt
+log.txt
+game/saves/*

@@ -37,6 +37,11 @@ label Chapter2:
 
 
     label choice_work:
-        "You will survive"
+        "You are going to start working, that's a great choice."
+        "Now you're going to start finding coconuts to to feed yourself. You find a tree and climb up to grab the coconuts."
+        "Also, on the top of the tree you find a sharp stick. What are you going to do with it?"
+        menu:
+            "I will grab the sharp stick.":
+                jump choice_grab_stick
 
 jump Chapter3
