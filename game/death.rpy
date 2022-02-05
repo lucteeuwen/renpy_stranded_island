@@ -1,4 +1,5 @@
 label death:
+    scene bg black
     show amongus dead
     "You Died (+_+)"
 

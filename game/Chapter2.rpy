@@ -18,14 +18,24 @@ label Chapter2:
     #Decided to panic
     label choice_panic:
         if gender == "m":
-            show male basic
+            show male panic
         "You decided to panic [player]. That's an interesting choice."
         "5 minutes later."
         "You are starting to freak out and as you freak out you slam into a tree and break your arm!"
+        if gender == "m":
+            show male passedout
         "You just passed out."
         "5 hours later."
+        if gender == "m":
+            show male panic
         "You just woke up and look at what you just encountered yourself with..."
+        if gender == "m":
+            hide male panic
+        show bear aggresive:
+            xalign 0.5
+            yalign 0.6
         "A wild bear! I wish you good luck [player]."
+        hide bear aggressive
         jump death
 
     #Decided to cry
@@ -44,8 +54,14 @@ label Chapter2:
                 if gender == "m":
                     show male cry
                 "Your crying will not help you. Didn't you realize there where bears on this island?"
+                if gender == "m":
+                    hide male cry
+                show bear aggresive:
+                    xalign 0.5
+                    yalign 0.6
                 "Look there you have one. But don't stress..."
                 "Well guess it's too late you allready died of fear. I wanted to tell you that these bears are not actually agresive."
+                hide bear aggresive
                 jump death
 
 
