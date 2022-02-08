@@ -22,9 +22,10 @@ label yell_loud:
     "the bear eats you while you where drinking water"
     jump death
 label cry_by_yourself:
-        "you choose to cry while sitting bellow a three"
-        "you cry so much you get dehydration "
-        "you drink coconut water"
-        "you dont get saved"
-        "but next day some guy comes with a plane and rescues you"
-        "you SURVIVED "
+    "you choose to cry while sitting bellow a three"
+    "you cry so much you get dehydration "
+    "you drink coconut water"
+    "you dont get saved"
+    "the good thing is that you have a cushion to have a good night sleep "
+    "but next day some guy comes with a plane and rescues you"
+    "you SURVIVED "
