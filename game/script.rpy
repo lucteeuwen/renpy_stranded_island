@@ -24,7 +24,7 @@ label start:
 
     # These display lines of dialogue.
     "STARTING"
-    jump Chapter1
+    jump harel
 
 
     # This ends the game.
