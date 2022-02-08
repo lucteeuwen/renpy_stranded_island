@@ -81,6 +81,7 @@ label Chapter2:
         "You have grabbed the sharp stick too. That's a great choice!"
         "Now, as you try to go down the tree, you loose your grip and fall. With your fall you have made a lot of noise and you have attracted a bear."
         "But it doesn't matter because you have a sharp stick which will allow you to kill the bear. "
+        "Now you are going to put your stick on top of your cushion. "
         jump Chapter3
 
     label choice_no_stick:
