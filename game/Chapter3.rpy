@@ -4,12 +4,12 @@ label Chapter3:
     "you suddenly decide to create a house... "
     "one day you see a ship on the horizon. a chance of survival..."
     menu:
-        "burn the trusty stick"
-        jump burn_stick
-        "yell louder"
-        jump yell_loud
-        "cry by yourself"
-        jump cry_by_yourself
+        "burn the trusty stick":
+            jump burn_stick
+        "yell louder":
+            jump yell_loud
+        "cry by yourself":
+            jump cry_by_yourself
 
 
 label burn_stick:
@@ -28,4 +28,3 @@ label cry_by_yourself:
         "you dont get saved"
         "but next day some guy comes with a plane and rescues you"
         "you SURVIVED "
-    return
