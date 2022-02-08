@@ -1,12 +1,20 @@
 label Chapter1:
     scene bg airplane
     "Chapter 1"
+    if gender == "m":
+        show male basic
+    elif gender == "f":
+        show female basic
     "[player], You wake up from a nap on the airplane because of a loud thud"
     "You notice that people have started to panic and you look around to figure out why"
     "The panic level starts to escelate and you finally look out the window of the plane and realize what is going on"
     scene bg airplane wing
     "The Left engine has completley burnt off, leaving you in a dicy situation"
     "You only have a few seconds to grab something or someone as the plane starts to go down"
+    if gender == "m":
+        hide male basic
+    elif gender == "f":
+        hide female basic
     menu:
         "Your Newborn Baby":
             jump choice_baby
