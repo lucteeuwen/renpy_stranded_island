@@ -22,6 +22,7 @@ git clone https://github.com/luc-frenkie-dj/renpy_stranded_island.git
 - Basic Renpy project structure
 - Basic Renpy syntax
 - USing images and using properly sized images
+- Python syntax
 
 ### Bibliography / resources
 > https://lemmasoft.renai.us/forums/viewtopic.php?f=52&t=17302 <br>
