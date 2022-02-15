@@ -12,7 +12,7 @@ label harel:
         if player == "Shuarya":
             jump death
         if player == "Parsa":
-            "You're a fuckin gamer"
+            "You're a gamer"
             jump death
 
         "What gender are you?"
