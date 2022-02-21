@@ -16,14 +16,22 @@ git clone https://github.com/luc-frenkie-dj/renpy_stranded_island.git
 ### Things I learnt
 - Basic Renpy project structure
 - Basic Renpy syntax
+- Different types of inputs
+- Changes of scenes and images
+- Changes in the main configuration of the project
 - USing images and using properly sized images
 
 ### Things I can teach
 - Basic Renpy project structure
 - Basic Renpy syntax
-- USing images and using properly sized images
+- Different types of inputs
+- Changes of scenes and images
+- Changes in the main configuration of the project
+- Using images and using properly sized images
 - Python syntax
 
 ### Bibliography / resources
 > https://lemmasoft.renai.us/forums/viewtopic.php?f=52&t=17302 <br>
 > https://emily2.itch.io/sutemo
+> https://stackoverflow.com/
+> Renpy Tutorial Project inside the RenPy launcher
