@@ -40,17 +40,17 @@ git clone https://github.com/luc-frenkie-dj/renpy_stranded_island.git
 - Changes of scenes and images
 - Changes in the main configuration of the project
 
-```python
-  # Change project window title
-  define config.name = _("Stranded Island")
-  
-  # Allow show name in GUI window
-  define gui.show_name = True
-  
-  # Define game version
-  define config.version = "1.0"
+    ```python
+      # Change project window title
+      define config.name = _("Stranded Island")
 
-```
+      # Allow show name in GUI window
+      define gui.show_name = True
+
+      # Define game version
+      define config.version = "1.0"
+
+    ```
 
 - USing images and using properly sized images
 
