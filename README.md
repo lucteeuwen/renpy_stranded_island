@@ -65,6 +65,6 @@ git clone https://github.com/luc-frenkie-dj/renpy_stranded_island.git
 
 ### Bibliography / resources
 > https://lemmasoft.renai.us/forums/viewtopic.php?f=52&t=17302 <br>
-> https://emily2.itch.io/sutemo
-> https://stackoverflow.com/
-> Renpy Tutorial Project inside the RenPy launcher
+> https://emily2.itch.io/sutemo <br>
+> https://stackoverflow.com/ <br>
+> Renpy Tutorial Project inside the RenPy launcher <br>
