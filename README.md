@@ -15,10 +15,43 @@ git clone https://github.com/luc-frenkie-dj/renpy_stranded_island.git
 
 ### Things I learnt
 - Basic Renpy project structure
+    
+  ![project structure image](http://pm1.narvii.com/7114/b9fb2f5fdee08cbd15c95a6986a32e734f49b78ar1-1061-890v2_uhq.jpg)
+    
 - Basic Renpy syntax
+
+  ```python
+  label Chapter2:
+    scene bg island
+    if gender == "m":
+        show male basic
+    elif gender == "f":
+        show female basic
+    menu:
+        "Are you going to panic?":
+            jump choice_panic
+        "Are you going to cry?":
+            jump choice_cry
+        "Are you going to start doing some work?":
+            jump choice_work
+  ```
+
 - Different types of inputs
 - Changes of scenes and images
 - Changes in the main configuration of the project
+
+```python
+  # Change project window title
+  define config.name = _("Stranded Island")
+  
+  # Allow show name in GUI window
+  define gui.show_name = True
+  
+  # Define game version
+  define config.version = "1.0"
+
+```
+
 - USing images and using properly sized images
 
 ### Things I can teach
